@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BrickBreak</title>
+
+        <style>
+
+            h1 {
+                color: white;
+                text-decoration: underline;
+                text-align: center;
+                font-size: 80px;
+                font-weight: bold;
+            }
+
+            canvas {
+                background: grey; display: block; margin: 0 auto;
+            }
+
+            body {
+                background-color: lightblue;
+            }
+            p {
+                text-align: : center;
+                font-size: 40px;
+                padding-left: 20px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1> BRICK BREAK </h1>
+
+        <canvas id = "myCanvas" width = "960" height="640"> </canvas>
+
+        <script src = "C:\Users\Kavish\Desktop\BrickBreak\scripts\BrickBreak.js"> </script>
+
+        <p>
+            Simple brickbreak game. Try to knock out all the bricks. You can move the paddle with your mouse or arrow keys. Good Luck!
+        </p>
+
+    </body>
+</html>
