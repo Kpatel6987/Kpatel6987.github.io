@@ -115,6 +115,168 @@ h4 {
 
 
 /*
+====================Work and Projects Only=====================================
+*/
+
+.label {
+   display: block;
+   position: absolute;
+   top: 15px;
+   bottom: 5px;
+   left: 15px;
+   margin-bottom: 15px;
+   margin-top: 15px;
+   right: 0;
+   text-align:center;
+   padding-top:calc(50% - 40px);
+   font-size: 22px;
+   overflow: hidden;
+   color: #ffffff;
+   white-space: nowrap;
+   background: url("../images/back9.jpg");
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   text-decoration: none;
+}
+
+.item p.new-label span, .item p.new-label2 span, .item p.new-label3 span,
+.item p.new-label4 span, .item p.new-label5 span, .item p.new-label6 span,
+.item p.new-label7 span, .item p.new-label8 span{
+ position: relative;
+}
+
+.item:hover p.new-label span, .item:hover p.new-label2 span, .item:hover p.new-label3 span, .item:hover p.new-label4 span, .item:hover p.new-label5 span, .item:hover p.new-label6 span, .item:hover p.new-label7 span, .item:hover p.new-label8 span{
+ display: none;
+}
+
+.item:hover p.new-label:after{
+ content: 'Co-Founder/ Managing Member';
+}
+
+.item:hover p.new-label2:after{
+ content: 'Software Engineer Intern';
+}
+
+.item:hover p.new-label3:after{
+ content: 'Student Research Assistant';
+}
+
+.item:hover p.new-label4:after{
+ content: 'Georgia Tech Research Group';
+}
+
+.item:hover p.new-label5:after{
+ content: 'HackFSU Group Project';
+}
+
+.item:hover p.new-label6:after{
+ content: 'Personal Project';
+}
+
+.item:hover p.new-label7:after{
+ content: 'Personal Project';
+}
+
+.item:hover p.new-label8:after{
+ content: 'HackGT Group Project';
+}
+
+#details{
+    font-size: 18px;
+}
+
+#button {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.dummy {
+  margin-top: 100%;
+}
+
+/* Styles for dialog window */
+#mdk, #ncr, #gt, #vip, #hackGT, #fsu, #stock, #brick{
+  /* background: white;
+  padding: 50px 50px;
+  text-align: left;
+  max-width: 400px;
+  margin: 40px auto;
+  position: relative; */
+  color: white;
+  text-align: left;
+  font-size: 24px;
+}
+
+
+/**
+ * Fade-zoom animation for first dialog
+ */
+
+/* start state */
+.my-mfp-zoom-in .zoom-anim-dialog {
+  opacity: 0;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+
+
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+/* animate in */
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+  opacity: 1;
+
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+/* animate out */
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+
+  opacity: 0;
+}
+
+/* Dark overlay, start state */
+.my-mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+/* animate in */
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+/* animate out */
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+
+
+
+
+/*
 ================================Resume Only=====================================
  */
 
