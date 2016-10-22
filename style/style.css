@@ -52,7 +52,8 @@ h4 {
   
 #about {
   padding-top:50px; 
-  height:auto; 
+  height:auto;
+  width: 100%;
   background: url("../images/back1.jpg");
 }
 
