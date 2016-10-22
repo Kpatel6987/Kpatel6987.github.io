@@ -58,7 +58,7 @@ h4 {
 
 #work {
   padding-top:50px; 
-  height:1000px; 
+  height: auto; 
   color: white; 
   background: url("../images/back8.jpg");
 }
