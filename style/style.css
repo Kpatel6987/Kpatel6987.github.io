@@ -54,6 +54,9 @@ h4 {
   padding-top:50px; 
   height:auto;
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   background: url("../images/back1.jpg");
 }
 
