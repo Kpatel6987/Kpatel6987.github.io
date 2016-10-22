@@ -47,12 +47,12 @@ h4 {
 
 #home {
   padding-top:50px; 
-  height:1000px;
+  height:auto;
 }
   
 #about {
   padding-top:50px; 
-  height:1000px; 
+  height:auto; 
   background: url("../images/back1.jpg");
 }
 
@@ -65,7 +65,7 @@ h4 {
 
 #projects {
   padding-top:50px; 
-  height:1000px; 
+  height:auto; 
   background: url("../images/back7.jpg");
 }
 
