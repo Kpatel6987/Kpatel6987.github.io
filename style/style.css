@@ -10,8 +10,6 @@
 
 html {
     position: relative;
-    min-height: 100%;
-    min-width: 100%
 }
 
 body {
@@ -47,12 +45,12 @@ h4 {
 */
 
 #home {
-  padding-top:50px; 
+  padding-top:50px;
   height: 750px;
 }
-  
+
 #about {
-  padding-top:50px; 
+  padding-top:50px;
   height:auto;
   width: 100%;
   position: relative;
@@ -60,15 +58,15 @@ h4 {
 }
 
 #work {
-  padding-top:50px; 
-  height: auto; 
-  color: white; 
+  padding-top:50px;
+  height: auto;
+  color: white;
   background: url("../images/back8.jpg");
 }
 
 #projects {
-  padding-top:50px; 
-  height:auto; 
+  padding-top:50px;
+  height:auto;
   background: url("../images/back7.jpg");
 }
 
@@ -87,7 +85,7 @@ h4 {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    min-width: 1200px;
+    min-width: 100%;
     width: 100%;
     overflow:auto;
     color: blue;
