@@ -10,7 +10,7 @@ header, main {
 
 html, body {
     height: 100%;
-    background: grey;
+    background: #bdbdbd;
 }
 
 .side-nav {
@@ -23,7 +23,7 @@ html, body {
 
 #home {
   height: 100vh;
-  background-color: #bdbdbd ;
+   background-color: #bdbdbd; 
 }
 
 #special-content{
@@ -81,7 +81,7 @@ h3 {
 
 #contact {
     height: 100%;
-    background-color: grey;
+    background-color: #bdbdbd;
 }
 
 #contact-text {
