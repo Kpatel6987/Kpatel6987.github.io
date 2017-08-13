@@ -13,12 +13,10 @@ html, body, main {
     background: #bdbdbd;
 }
 
-.side-nav {
+#nav-links {
     color: white;
-}
-
-#nav-mobile > a {
-    color: white;
+    font-size: 24px;
+    padding-bottom: 10px;
 }
 
 #home {
@@ -95,18 +93,4 @@ h3 {
 
 #contact-list {
     text-align: center;
-}
-
-/* navbar ul li a{
-  color: white;
- } */
-
-#nav-links {
-    color: white;
-    font-size: 24px;
-    padding-bottom: 10px;
-}
-
-navbar ul li {
-    /* padding-bottom: 15px; */
 }
