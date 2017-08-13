@@ -97,3 +97,16 @@ h3 {
     text-align: center;
 }
 
+/* navbar ul li a{
+  color: white;
+ } */
+
+#nav-links {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+navbar ul li {
+    /* padding-bottom: 15px; */
+}
